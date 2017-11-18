@@ -47,7 +47,7 @@ namespace CIT255_UWP_Final_Project
             this.Frame.Navigate(typeof(ChartsPage));
         }
 
-        private void HeatMao_Click(object sender, RoutedEventArgs e)
+        private void HeatMap_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(HeatMapPage));
         }

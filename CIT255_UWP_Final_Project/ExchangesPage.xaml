@@ -15,5 +15,10 @@
         <Button x:Name="Trend_View" Content="Trends" HorizontalAlignment="Left" Margin="475,130,0,0" VerticalAlignment="Top" Width="175" Background="#FF526374" Foreground="White" FontSize="24" Click="Trends_Click"/>
         <Button x:Name="Chart_View" Content="Charts" HorizontalAlignment="Left" Margin="675,130,0,0" VerticalAlignment="Top" Width="175" Background="#FF526374" Foreground="White" FontSize="24" Click="Charts_Click"/>
         <Button x:Name="Heat_Map_View" Content="Heat Map" HorizontalAlignment="Left" Margin="875,130,0,0" VerticalAlignment="Top" Width="200" Background="#FF526374" Foreground="White" FontSize="24" Click="Charts_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="75,279.903,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="603" Width="171.717" Background="#66FFFFFF" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBox.RenderTransform>
+                <CompositeTransform SkewY="1.164" TranslateY="5.841"/>
+            </TextBox.RenderTransform>
+        </TextBox>
     </Grid>
 </Page>
