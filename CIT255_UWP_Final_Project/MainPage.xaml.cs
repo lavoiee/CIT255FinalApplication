@@ -51,5 +51,10 @@ namespace CIT255_UWP_Final_Project
         {
             this.Frame.Navigate(typeof(HeatMapPage));
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

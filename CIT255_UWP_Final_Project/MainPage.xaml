@@ -16,5 +16,6 @@
         <Button x:Name="Chart_View" Content="Charts" HorizontalAlignment="Left" Margin="675,130,0,0" VerticalAlignment="Top" Width="175" Background="#FF526374" Foreground="White" FontSize="24" Click="Charts_Click"/>
         <Button x:Name="Heat_Map_View" Content="Heat Map" HorizontalAlignment="Left" Margin="875,130,0,0" VerticalAlignment="Top" Width="200" Background="#FF526374" Foreground="White" FontSize="24" Click="HeatMap_Click"/>
         <Image x:Name="BackgroundImage" HorizontalAlignment="Left" Height="930" Margin="0,70,0,0" VerticalAlignment="Top" Width="1500"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,405,0,0" TextWrapping="Wrap" Text="P^X&lt;&lt;CRYPTO" VerticalAlignment="Top" Height="288" Width="1340" SelectionChanged="TextBlock_SelectionChanged" Foreground="White" FontSize="180" FontWeight="Bold"/>
     </Grid>
 </Page>
