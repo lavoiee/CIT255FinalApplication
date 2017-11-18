@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="CIT255_UWP_Final_Project.MainPage"
+    x:Class="CIT255_UWP_Final_Project.ExchangesPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:CIT255_UWP_Final_Project"
@@ -14,8 +14,6 @@
         <Button x:Name="Currency_Pairs_View" Content="Currency Pairs" HorizontalAlignment="Left" Margin="275,130,0,0" VerticalAlignment="Top" Background="#FF526374" Click="Currency_Pairs_Click" Width="175" Foreground="White" FontSize="24"/>
         <Button x:Name="Trend_View" Content="Trends" HorizontalAlignment="Left" Margin="475,130,0,0" VerticalAlignment="Top" Width="175" Background="#FF526374" Foreground="White" FontSize="24" Click="Trends_Click"/>
         <Button x:Name="Chart_View" Content="Charts" HorizontalAlignment="Left" Margin="675,130,0,0" VerticalAlignment="Top" Width="175" Background="#FF526374" Foreground="White" FontSize="24" Click="Charts_Click"/>
-        <Button x:Name="Heat_Map_View" Content="Heat Map" HorizontalAlignment="Left" Margin="875,130,0,0" VerticalAlignment="Top" Width="200" Background="#FF526374" Foreground="White" FontSize="24" Click="HeatMao_Click"/>
-        <Image x:Name="BackgroundImage" HorizontalAlignment="Left" Height="930" Margin="0,70,0,0" VerticalAlignment="Top" Width="1500"/>
-        <TextBox HorizontalAlignment="Left" Margin="75,284,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="603" Width="575" Background="#66FFFFFF"/>
+        <Button x:Name="Heat_Map_View" Content="Heat Map" HorizontalAlignment="Left" Margin="875,130,0,0" VerticalAlignment="Top" Width="200" Background="#FF526374" Foreground="White" FontSize="24" Click="Charts_Click"/>
     </Grid>
 </Page>
